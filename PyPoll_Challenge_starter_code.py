@@ -4,7 +4,7 @@
 # Add our dependencies.
 import csv
 import os
-print('election')
+
 # Add a variable to load a file from a path.
 file_to_load = os.path.join("Resources", "election_results.csv")
 # Add a variable to save the file to a path.
@@ -99,10 +99,7 @@ with open(file_to_save, "w") as txt_file:
             votes = county_votes[element]
         # 6c: Calculate the percentage of votes for the county.
             county_vote_percent = votes / total_votes *100
-            results = (
-                f"{element} : {county_vote_percent:.1f}%"
-            )
-
+            results = (f"{element} : {county_vote_percent:.1f}%")
 
          # 6d: Print the county results to the terminal.
     print(results)
