@@ -23,5 +23,5 @@ Candidate Diana DeGette was the winner of the congressional election with a tota
 
 ## Election Audit Summary
 
-The code simplifies the election analysis and its adequate for variable input since it can adapt to data sources with different counties and candidates, extracting this information and using it to elaborate the summaries so the code can be resuse with minimal to no refactoring.
-An additional improvement that could be added could be more checking points for the analyst by printing the list and dictionaries used in order to confirm that all the information is being properly assessed.
+The code simplifies the election analysis and its adequate for variable input since it can adapt to data sources with different counties and candidates, extracting this information and using it to elaborate the summaries so the code can be resuse with minimal to no refactoring. For example, if another country loads its election information in csv format the code would automatically iterate to generate a candidate and county from that data and assigning it to variables. This would make it very simple to obtain the counties, candidates and winner breakdown as long as the csv file follows the same format. If that is not the case, then the code would have to be refactored so that data collection adapts to the source file.
+An improvement that could be added is more checking points for the analyst, this could be easily configured by printing the list and dictionaries used in order to confirm that all the information is being properly assessed.
