@@ -74,7 +74,8 @@ with open(file_to_load) as election_data:
         county_votes[county_name] += 1
     
 # Save the results to our text file.
-with open(file_to_save, "w") as txt_file:
+# use W the first time and use "a" from there on so that the data appends to the existing file not overwriting it
+with open(file_to_save, "a") as txt_file:
 
     # Print the final vote count (to terminal)
     election_results = (
@@ -98,7 +99,7 @@ with open(file_to_save, "w") as txt_file:
         print(f"{element} county has {county_vote_percent:.1f}% of the total votes with ({votes:,} votes)")
 
         # 6e: Save the county votes to a text file.
-        txt_file.write(f"{element}: {county_vote_percent:.1f}% ({votes:,})")
+        txt_file.w(f"{element}: {county_vote_percent:.1f}% ({votes:,})")
 
         # 6f: Write an if statement to determine the winning county and get its vote count.
         if county_votes[element] >(total_votes/2):
