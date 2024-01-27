@@ -10,17 +10,20 @@ The characteristics of the data analysis will be reviewed below:
 
 - A total of 369,711 votes were cast for the congressional election.
 - Counties Breakdown:
+  
 The county of Jefferson had 10.5% of the total votes with 38,855 votes emitted. 
 The county of Denver had 82.8% of the total votes with 306,055 votes emitted. 
 The county of Arapahoe had 6.7% of the total votes with 11,606 votes emitted. 
 The county of Denver had the largest number of votes (82.8% of the total votes).
 
 - Candidates Breakdown
+  
 Candidate Charles Casper Stockham obtained 23.0% of all the votes (85,213 votes).
 Candidate Diana DeGette obtained 73.8% of all the votes (272,892 votes).
 Candidate Raymon Anthony Doane obtained 3.1% of all the votes (11,606 votes).
 
 - Winner summary
+  
 Candidate Diana DeGette was the winner of the congressional election with a total vote count of 272,892 representing 73.8% of all emitted votes.
 
 
